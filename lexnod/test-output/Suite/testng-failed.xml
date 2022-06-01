@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Lexnod Test(failed)">
+    <classes>
+      <class name="com.lexnod.Accounts.VerifyAccountsTab">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="verifyAccountsTabTest"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.lexnod.Accounts.VerifyAccountsTab -->
+      <class name="com.lexnod.Contacts.VerifyContactsTab">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="verifyContactsTabTest"/>
+        </methods>
+      </class> <!-- com.lexnod.Contacts.VerifyContactsTab -->
+      <class name="com.lexnod.Potentials.VerifyPotentialsTab">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="verifyPotentialstabTest"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.lexnod.Potentials.VerifyPotentialsTab -->
+      <class name="com.lexnod.leads.VerifyLeadsTab">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="verifyLeadsTabtest"/>
+        </methods>
+      </class> <!-- com.lexnod.leads.VerifyLeadsTab -->
+      <class name="com.lexnod.Forecasts.VerifyForecastsTab">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="verifyForecastsTabTest"/>
+        </methods>
+      </class> <!-- com.lexnod.Forecasts.VerifyForecastsTab -->
+      <class name="com.lexnod.leads.CreateNewLead">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="createNewLeadTest"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.lexnod.leads.CreateNewLead -->
+      <class name="com.lexnod.Campaigns.VerifyCampaignsTab">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="verifyCampaignsTabTest"/>
+        </methods>
+      </class> <!-- com.lexnod.Campaigns.VerifyCampaignsTab -->
+      <class name="com.lexnod.quotes.VerifyQuotesTab">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="verifyQuotesTabTest"/>
+        </methods>
+      </class> <!-- com.lexnod.quotes.VerifyQuotesTab -->
+      <class name="com.lexnod.Dsahboards.VerifyDashboardsTab">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="verifyDashboardsTabTest"/>
+        </methods>
+      </class> <!-- com.lexnod.Dsahboards.VerifyDashboardsTab -->
+      <class name="com.lexnod.login.ValidLogin">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="validLoginTest"/>
+        </methods>
+      </class> <!-- com.lexnod.login.ValidLogin -->
+      <class name="com.lexnod.Reports.VerifyReportsTab">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="verifyReportsTabTest"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.lexnod.Reports.VerifyReportsTab -->
+    </classes>
+  </test> <!-- Lexnod Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

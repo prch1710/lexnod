@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.lexnod.quotes.VerifyQuotesTab"/>
+      <class name="com.lexnod.Dsahboards.VerifyDashboardsTab"/>
+      <class name="com.lexnod.Accounts.VerifyAccountsTab"/>
+      <class name="com.lexnod.Campaigns.CreateNewCampaign"/>
+      <class name="com.lexnod.Campaigns.copy.VerifyCampaignsTab"/>
+      <class name="com.lexnod.Potentials.VerifyPotentialsTab"/>
+      <class name="com.lexnod.Campaigns.copy.CreateNewCampaign"/>
+      <class name="com.lexnod.Reports.VerifyReportsTab"/>
+      <class name="com.lexnod.Forecasts.VerifyForecastsTab"/>
+      <class name="com.lexnod.leads.VerifyLeadsTab"/>
+      <class name="com.lexnod.leads.CreateNewLead"/>
+      <class name="com.lexnod.Contacts.VerifyContactsTab"/>
+      <class name="com.lexnod.Campaigns.VerifyCampaignsTab"/>
+      <class name="com.lexnod.login.ValidLogin"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
